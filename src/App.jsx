@@ -1,12 +1,16 @@
-
-// import UseState from "./components/UseState";
+// import UseReducer from "./components/usereducer/UseReducer";
 // import UseEffect from "./components/UseEffect";
-import Parent from "./components/Parent";
+// import UseState from "./components/UseState";
+import UseRef from "./components/useref/UseRef";
+// import Dom from "./components/useref/dom";
+// import Parent from "./components/Parent";
 
 function App() {
-  return <>
-    <Parent/>
-  </>;
+  return (
+    <>
+      <UseRef />
+    </>
+  );
 }
 
 export default App;

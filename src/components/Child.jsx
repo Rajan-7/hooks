@@ -1,9 +1,9 @@
 import React from 'react'
-import { useContext } from 'react';
-import { AppContext } from './usecontext/UseContext';
+import { useGlobal } from './usecontext/UseContext';
+
 
 const Child = () => {
-    const data = useContext(AppContext); 
+    const data = useGlobal(); 
   return (
     <>
       <p>Name is {data.name} & age is {data.age} </p>
